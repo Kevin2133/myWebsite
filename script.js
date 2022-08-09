@@ -11,12 +11,12 @@ window.onload = () => {
         const lnbr = document.createElement("br");
         var nome = document.createElement("p"), cognome = document.createElement("p"), livello = document.createElement("p");
         console.log(data);
-        nome.innerText = data.name;
+        nome.innerHTML = data.name;
         div.appendChild(nome);
-        div.appendChild(lnbr);
+        //div.appendChild(lnbr);
         cognome.innerHTML = data.surname;
         div.appendChild(cognome);
-        div.appendChild(lnbr);
+        //div.appendChild(lnbr);
         livello.innerHTML = data.level;
         div.appendChild(livello);
     });
