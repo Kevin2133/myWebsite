@@ -9,9 +9,9 @@ window.onload = () => {
     .then((data) => {
         const div = document.getElementById("apiRes");
         const lnbr = document.createElement("br");
-        var nome, cognome, livello = document.createElement("p");
-        console.log(data.name);
-        nome.innerHTML = data.name;
+        var nome = document.createElement("p"), cognome = document.createElement("p"), livello = document.createElement("p");
+        console.log(data);
+        nome.innerText = data.name;
         div.appendChild(nome);
         div.appendChild(lnbr);
         cognome.innerHTML = data.surname;
