@@ -9,15 +9,15 @@ window.onload = () => {
     .then((data) => {
         const div = document.getElementById("apiRes");
         const lnbr = document.createElement("br");
-        var par = document.createElement("p");
+        var name, surname, level = document.createElement("p");
         console.log(data);
-        par.innerHTML = data.name;
-        div.appendChild(par);
+        name.innerHTML = data.name;
+        div.appendChild(name);
         div.appendChild(lnbr);
-        par.innerHTML = data.surname;
-        div.appendChild(par);
+        surname.innerHTML = data.surname;
+        div.appendChild(surname);
         div.appendChild(lnbr);
-        par.innerHTML = data.level;
-        div.appendChild(par);
+        level.innerHTML = data.level;
+        div.appendChild(level);
     });
 };
