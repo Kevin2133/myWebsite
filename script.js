@@ -10,7 +10,7 @@ window.onload = () => {
         const div = document.getElementById("apiRes");
         const lnbr = document.createElement("br");
         var nome, cognome, livello = document.createElement("p");
-        console.log(data);
+        console.log(data.list);
         nome.innerHTML = data.name;
         div.appendChild(nome);
         div.appendChild(lnbr);
