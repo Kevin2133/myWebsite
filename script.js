@@ -1,6 +1,5 @@
 const url = "https://easycodingkevapi.herokuapp.com/";
-const div = document.getElementById("apiRes");
-const lnbr = document.createElement("br");
+
 
 window.onload = () => {
     fetch(url)
@@ -8,6 +7,8 @@ window.onload = () => {
         return res.json();
     })
     .then((data) => {
+        const div = document.getElementById("apiRes");
+        const lnbr = document.createElement("br");
         var par = document.createElement("p");
         console.log(data);
         par.innerHTML = data.name;
