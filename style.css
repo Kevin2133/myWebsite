@@ -1,11 +1,4 @@
 @font-face {
-    font-family: "Dripink";
-    src: url("./fonts/DripinkpersonaluseBlack-p72nK.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "Century Gothic";
     src: url("./fonts/century-gothic/GOTHIC.TTF");
     font-weight: normal;
@@ -14,55 +7,74 @@
 
 *{
     box-sizing: border-box;
-    font-family: "Century Gothic";
-    color: #777;
-}
-
-html, body{
-    margin: 0;
+    font-family: "Josephine Sans", sans-serif;
+    color: #ffffff;
     padding: 0;
+    margin: 0;
 }
 
-
-.header{
-    background-image: url("./src/campo\ girasoli.webp");
+.introduzione{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./src/fotoSfondo.jpeg");
     background-size: cover;
-    margin: 0;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
 }
 
-.main-nav ul{
-    margin: 0;
-    text-align: center;
+.main-nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5vh;
 }
 
-.main-nav li{
-    display: inline-block;
-    margin: 10px;
+.logo{
+    font-size: 3em;
+    font-style: italic;
+    cursor: pointer;
 }
 
-.header h1 {
-    font-family: "Dripink";
-    font-size: 12em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.847);
-    margin: 0;
+nav span{
+    color: aqua;
 }
 
-.main-nav a{
+nav ul{
+    min-width: 50%;
+}
+
+nav ul li{
+    display: inline-block; 
+    padding-right: 3%;
+    padding-left: 3%;  
+}
+
+nav ul li a{
     text-decoration: none;
+    font-weight: bold;
 }
 
-.main-nav a:hover{
-    color: rgba(255,255,255,1);
+nav ul li a:hover{
+    color: aqua;
+    transition: 0.6s;
 }
 
-.footer{
-    background-color: rgba(246, 232, 37, 0.8);    
+.nome{
+    padding-top: 30vh;
+    padding-left: 10%;
 }
 
-.flexbox{
-    display: flex;
-    justify-items: flex-end;
-    align-items: center; 
+.nome h4{
+    font-size: 2em;
 }
+
+.nome h1{
+    font-size: 4em;
+    color: aqua;
+}
+
+
 
