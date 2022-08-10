@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Dripink";
+    src: url("./fonts/DripinkpersonaluseBlack-p72nK.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("./fonts/century-gothic/GOTHIC.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Century Gothic";
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-image: url("./src/campo\ girasoli.webp");
+    background-size: cover;
+    margin: 0;
+}
+
+.main-nav ul{
+    margin: 0;
+    text-align: center;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.header h1 {
+    font-family: "Dripink";
+    font-size: 12em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.847);
+    margin: 0;
+}
+
+.main-nav a{
+    text-decoration: none;
+}
+
+.main-nav a:hover{
+    color: rgba(255,255,255,1);
+}
+
+.footer{
+    background-color: rgba(246, 232, 37, 0.8);    
+}
+
+.flexbox{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center; 
+}
+

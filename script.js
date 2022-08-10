@@ -29,5 +29,4 @@ function show(data){
 
 
 window.onload = () => {
-    getapi(url);
 };
