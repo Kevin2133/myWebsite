@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-nav span{
+span{
     color: aqua;
 }
 
@@ -69,13 +69,20 @@ nav ul li a:hover{
     padding-left: 10%;
 }
 
-.nome h4{
+h4{
     font-size: 2em;
 }
 
 .nome h1{
-    font-size: 4em;
     color: aqua;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h1{
+    font-size: 6em;
 }
 
 .about-me{
@@ -97,10 +104,103 @@ nav ul li a:hover{
 
 .img{
     max-width: 100%;    
+    border-radius: 1px;
 }
 
 .text{
     width: 40%;
+}
+
+.about-btn, .interessi-btn{
+    background-color: aqua;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1em;
+    font-weight: normal;
+    transition: 0.6s;
+}
+
+.about-btn{
+    margin-top: 7vh;
+}
+
+.interessi-btn{
+    margin-top: 2vh;
+    width: 70%;
+}
+
+.about-btn:hover, .interessi-btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.about-btn a, .interessi-btn a{
+    text-decoration: none;
+}
+
+.interessi{
+    background-color: rgba(2, 197, 197, 0.515);
+    width: 100%;
+    padding-bottom: 10vh;
+    padding-top: 20vh;
+    height: 100vh;
+
+}
+
+.titolo-interessi{
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.interessi-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 20%;
+    background-color: rgba(0, 162, 162, 0.515);
+    border-radius: 30px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+
+.interessi-icon{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+    vertical-align: middle;
+}
+
+.interessi-icon img{
+    width: 40%;
+}
+
+.coding img{
+    width: 30%;
+}
+
+.footer{
+    background-color:rgba(0, 162, 162, 0.515);
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.name{
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.copyright{
+    padding-bottom: 5vh;
 }
 
 
