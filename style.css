@@ -78,5 +78,30 @@ nav ul li a:hover{
     color: aqua;
 }
 
+.about-me{
+    display: flex;
+    background-color: rgba(0, 162, 162, 0.515);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0vh;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.img-wrapper{
+    max-width: 40%;       
+}
+
+.img{
+    max-width: 100%;    
+}
+
+.text{
+    width: 40%;
+}
+
 
 
