@@ -61,10 +61,10 @@ body{
 /*ricordarsi di mettere dentro tutte le sezioni del sito*/
 @media screen and (max-width: 745px) {
     .post-wrapper{
-        width: 240vw;   
+        width: 260vw;   
     }
 
     .introduzione{
-        width:240vw;
+        width:260vw;
     }
 }
