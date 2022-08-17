@@ -16,22 +16,26 @@
 /*Headers*/
 
 h4{
-    font-size: calc(0.4*6.5vw);
+    /*font-size: calc(0.4*6.5vw);*/
     /*h2/2*/
+    font-size: 2em;
 }
 
 h3{
-    font-size: calc(0.5*6.5vw);
+    /*font-size: calc(0.5*6.5vw);*/
     /*between h2 and h4*/
+    font-size: 4em;
 }
 
 h2{
-    font-size: calc(2/3*6.5vw);
+    /*font-size: calc(2/3*6.5vw);*/
     /*66% of h1*/
+    font-size: 6em;
 }
 
 h1{
-    font-size: 6.5vw;
+    /*font-size: 6.5vw;*/
+    font-size: 8em;
 }
 
 /*Fine headers*/
@@ -239,6 +243,24 @@ nav ul li a:hover{
     width: 30%;
 }
 
+
+/*Footer*/
+
+.footer{
+    background-color:rgba(0, 162, 162, 0.515);
+    text-align: center;
+    padding-top: 5vh;    
+}
+
+.name{
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.copyright{
+    padding-bottom: 5vh;
+}
+
 @media screen and (max-width: 745px) {
     .interessi-wrapper{
         flex-direction: column;
@@ -257,30 +279,36 @@ nav ul li a:hover{
         min-height: 4vh;
     }
 
+    .interessi-icon img{
+        width: 30%;
+        padding-top:1vh;
+    }
+
+    .coding img{
+        width: 20%;        
+    }
+
+    .introduzione{
+        width: 170vw;
+    }
+
+    .about-me{
+        width: 170vw;
+    }
+
+    .interessi{
+        width: 170vw;
+    }
+
+    .footer{
+        width: 170vw;
+    }
+
     @media screen and (max-height: 400px) {
         .card{
             margin-bottom: 10vh;
         }
     }
-}
-
-
-
-/*Footer*/
-
-.footer{
-    background-color:rgba(0, 162, 162, 0.515);
-    text-align: center;
-    padding-top: 5vh;    
-}
-
-.name{
-    font-size: 1.5em;
-    margin-bottom: 2vh;
-}
-
-.copyright{
-    padding-bottom: 5vh;
 }
 
 
