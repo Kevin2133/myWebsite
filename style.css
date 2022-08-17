@@ -289,19 +289,19 @@ nav ul li a:hover{
     }
 
     .introduzione{
-        width: 170vw;
+        width: 190vw;
     }
 
     .about-me{
-        width: 170vw;
+        width: 190vw;
     }
 
     .interessi{
-        width: 170vw;
+        width: 190vw;
     }
 
     .footer{
-        width: 170vw;
+        width: 190vw;
     }
 
     @media screen and (max-height: 400px) {
