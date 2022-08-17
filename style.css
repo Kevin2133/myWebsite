@@ -16,7 +16,7 @@
 /*Headers*/
 
 h4{
-    font-size: calc(0.40*6.5vw);
+    font-size: calc(0.45*6.5vw);
     /*h2/2*/
 }
 
@@ -200,6 +200,7 @@ nav ul li a:hover{
 .interessi-eltitle{
     min-height: 15vh;
 }
+
 
 .interessi-content{
     min-height: 7vh;
