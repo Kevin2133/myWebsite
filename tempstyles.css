@@ -18,6 +18,7 @@ body{
 }
 
 .post{
+    align-self: center;
     width: 80%;
     min-height: 30vh;
     display: flex;    
@@ -26,7 +27,6 @@ body{
 
 .post-image{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 40%;   
@@ -52,4 +52,12 @@ body{
     padding-top: 2vh;
     padding-bottom: 2vh;  
     margin-bottom: 2vh;  
+}
+
+
+/*ricordarsi di mettere dentro tutte le sezioni del sito*/
+@media screen and (max-width: 745px) {
+    .post-wrapper{
+        width: 240vw;   
+    }
 }
