@@ -15,14 +15,17 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .post{
     align-self: center;
-    width: 80%;
+    min-width: 80%;
+    width: fit-content;
     min-height: 30vh;
     display: flex;    
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 .post-image{
