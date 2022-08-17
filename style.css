@@ -186,7 +186,7 @@ nav ul li a:hover{
 
 .card{
     width: 20vw;
-    height: 100%;
+    min-height: 100%;
     background-color: rgba(0, 162, 162, 0.515);
     border-radius: 30px;
     padding-top: 3vh;
