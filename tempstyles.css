@@ -41,6 +41,8 @@ body{
 .post-image img{
     width: 100%;
     padding-bottom: 2vh;
+    border-radius: 5px
+    ;
 }
 
 .description-wrapper{
